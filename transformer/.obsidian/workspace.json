@@ -57,10 +57,12 @@
             "id": "8a9c63236d0cb91f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "image",
+              "state": {
+                "file": "Neural network basis/Pasted image 20250725153720.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250725153720"
             }
           }
         ]
@@ -136,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Neural network basis/Pasted image 20250725153720.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Pasted image 20250725153720 的反向链接列表"
             }
           },
           {
@@ -154,11 +157,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Neural network basis/Pasted image 20250725153720.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "Pasted image 20250725153720 的出链列表"
             }
           },
           {
@@ -182,12 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Neural network basis/Pasted image 20250725153720.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Pasted image 20250725153720 的大纲"
             }
           }
         ]
@@ -207,21 +212,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8a9c63236d0cb91f",
+  "active": "70d0f05c9faac9e6",
   "lastOpenFiles": [
+    "Neural network basis/Pasted image 20250725142851.png",
     "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
     "欢迎.md",
     "transformer/Pasted image 20250725132910.png",
     "transformer/Pasted image 20250725132907.png",
-    "Pasted image 20250725153720.png",
-    "Pasted image 20250725153712.png",
-    "Pasted image 20250725153653.png",
+    "Neural network basis/Pasted image 20250725153720.png",
+    "Neural network basis/Pasted image 20250725153712.png",
+    "Neural network basis/Pasted image 20250725153653.png",
     "transformer/Transformer.md",
-    "Pasted image 20250725152930.png",
-    "Pasted image 20250725152927.png",
-    "Pasted image 20250725152114.png",
-    "Pasted image 20250725145132.png",
-    "Pasted image 20250725145005.png",
+    "Neural network basis/Pasted image 20250725152930.png",
+    "Neural network basis/Pasted image 20250725152927.png",
+    "Neural network basis/Pasted image 20250725152114.png",
+    "Neural network basis/Pasted image 20250725145132.png",
+    "Neural network basis/Pasted image 20250725145005.png",
     "Neural network basis/未命名",
     "未命名",
     "Neural network basis",
