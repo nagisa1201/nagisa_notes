@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
+                "file": "output/Neural Network Basis（基于Transformer的学习）.md",
                 "mode": "source",
                 "source": false
               },
@@ -168,10 +168,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "70d0f05c9faac9e6",
+  "active": "8a9c63236d0cb91f",
   "lastOpenFiles": [
-    "output/Pasted image 20250726195046.png",
+    "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
     "output/Pasted image 20250726194846.png",
+    "output/Pasted image 20250726195046.png",
     "output/Pasted image 20250726194809.png",
     "output/Pasted image 20250726194616.png",
     "output/Pasted image 20250726193926.png",
@@ -180,11 +181,9 @@
     "output/Pasted image 20250726191922.png",
     "output/Pasted image 20250726190217.png",
     "output/Pasted image 20250726190154.png",
-    "output/Pasted image 20250726141443.png",
     "output/Neural Network Basis（基于Transformer的学习）.md",
     "output/attachment",
     "output",
-    "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
     "output/Neural Network Basis（基于Transformer的学习）.html",
     "transformer/Transformer.md",
     "output/Transformer.md",
