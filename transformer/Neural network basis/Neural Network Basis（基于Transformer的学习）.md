@@ -15,7 +15,7 @@
 ## 模型的编码、计算方式核心
  - 将词向量用Wq、Wk、Wv相乘的到三个变换词向量![[Pasted image 20250725132910.png]]
  - *关系性判断*：变换词向量之间的相似度![[Pasted image 20250725130051.png]]![[Pasted image 20250725130134.png]]![[Pasted image 20250725130211.png]]
-### ***Attention注意力机制，Multi-Head Attention多头注意力机制![[Pasted image 20250725130604.png]]
+### ***Attention注意力机制，Multi-Head Attention多头注意力机制***![[Pasted image 20250725130604.png]]
    - Dot单头注意力：Q、K矩阵相乘后经过√dk缩放，经过Softmax处理后与V矩阵相乘
    - 多头：将QKV矩阵经过多个权重矩阵，拆分到多个头中分别经过注意力机制运算（单头运算），之后合并经过一次矩阵运算
 ### 训练流程![[Pasted image 20250725131822.png]]
