@@ -37,7 +37,8 @@
 ***解决词与词关系的机制***![[./Pasted image 20250725142854.png]]
 > *Q,V,K为三种不同的参数矩阵，是允许复用的*，称为***注意力单元***，其中Q,K矩阵（query、key）计算相似权重，进入softmax层算出相似概率，V矩阵承载信息数据，与概率加权后得到最终结果，注意力权重确定后，V 被加权聚合，生成上下文感知的新表示。
 ### 残差连接：使该模型可以相对容易和快速的训练，每一个注意力单元都需要添加
-***解决自注意力流程中需兼顾词嵌入和位置编码信息不丢失的问题***![[./Pasted image 20250725145132.png]]
+***解决自注意力流程中需兼顾词嵌入和位置编码信息不丢失的问题***
+![[./Pasted image 20250725145132.png]]
 >旁路残差连接，注意力机制接管处理词与词之间的关系时无需保留词嵌入和位置编码信息，而是通过处理过后的残差介入来加入这一关系。
 ### 总结
 **实际上，对于每个单词而言，只是不停地复制更多如上相同的单元进行编码。通过每个单词的单元化处理，Transformer可以同时编码计算，并行处理，同时计算每一步而非顺序单独计算。**
@@ -46,26 +47,29 @@
 >Q:为什么编码器解码器注意力层（交叉注意力层）的K、V输出来源于解码器输出后再次进行Key和Value的计算？
 >A:​​Key专注于相似度计算，Value专注于信息传递。Key当决定某个单词应该被翻译为什么时，决定每个输入单词应当使用的百分比（Key的结果经过了Softmax层转化为概率）。Value决定内容（与概率相乘后）。***这样的交叉注意力层是为了翻译时不要漏掉编码器输入句子的重要词句***![[./Pasted image 20250725152114.png]]
 
->***Q:交叉注意力层中Query的来源？
->A:交叉注意力层的Query直接继承自解码器前一层的输出向量，经过一个可学习的Wq矩阵得到。***
+>***Q:交叉注意力层中Query的来源？***
+>***A:交叉注意力层的Query直接继承自解码器前一层的输出向量，经过一个可学习的Wq矩阵得到。***
 
->**Q:交叉注意力层后还存在一个Linear层和Softmax层的意义？
->A:![[Pasted image 20250725153720.png]]
->Linear层主要是将注意力单元输出的高维语义向量映射到词汇空间，解决“抽象特征无法直接对应词语”的问题；而Softmax层主要是通过概率的方法解决训练时损失函数返回和后续推理输出最大概率项。**
-### 基础模型总述![[Pasted image 20250725152930.png]]
+>**Q:交叉注意力层后还存在一个Linear层和Softmax层的意义？**
+>![[Pasted image 20250725153720.png]]
+>**A:Linear层主要是将注意力单元输出的高维语义向量映射到词汇空间，解决“抽象特征无法直接对应词语”的问题；而Softmax层主要是通过概率的方法解决训练时损失函数返回和后续推理输出最大概率项。**
+### 基础模型总述
+![[Pasted image 20250725152930.png]]
 
 # VIT(Vision Transformer):证明了Transformer在计算机视觉的可用性与其通用性
 ![[Pasted image 20250725203610.png]]
 ## 主要改变Embedding层：图像转化为Token序列
 - 将图像转化为词句，把patch作为一个语义单元，**对应文本里的一个Token。因为一个像素点只存在RGB三个信息，用高维向量来刻画太浪费了。**
 >**Q:一个图像如何转化成一个embedding向量呢？**
->A:***①patch embedding：将原始图像划分为多个同维patch，每个相当于句子中的一个单词
->   ②经过一个全连接层，将patch序列压缩成一个向量
->   ③position embedding：即加入tokens的位置信息为后面self attention做准备
->   ④在向量开头加上class token目的是便于后期做分类***![[Pasted image 20250726142415.png]]
+>A:***①patch embedding：将原始图像划分为多个同维patch，每个相当于句子中的一个单词***
+>***②经过一个全连接层，将patch序列压缩成一个向量***
+>***③position embedding：即加入tokens的位置信息为后面self attention做准备***
+>***④在向量开头加上class token目的是便于后期做分类***
+>   ![[Pasted image 20250726142415.png]]
 >   **需要说明的是E表示patch embedding，Xclass是class token拼接，Epos是加上position embedding**
 >   之后作为输入喂给Transformer网络
-## VIT总流程![[Pasted image 20250726142730.png]]
+## VIT总流程
+![[Pasted image 20250726142730.png]]
 - MLP Head是分类头
 - Transformer Encoder与Transformer中的原生编码器极其相似
 # Cross-Attention：交叉注意力
@@ -75,7 +79,7 @@
 ## Cross-Attention算法
 ![[Pasted image 20250726190217.png]]
 # Swin Transformer：使用滑动窗口的分层VIT
->[原论文出处](https://arxiv.org/pdf/2103.14030)
+***[原论文出处](https://arxiv.org/pdf/2103.14030)***
 ![[Pasted image 20250726191922.png]]
 ## 解名：Hierarchical Vision Transformer using Shifted Windows
 - ***Vision Transformer表明是对VIT的改进，解决了VIT在Embedding步时直接拆分图片为patch时对图片信息裁剪的丢失问题***
