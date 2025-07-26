@@ -43,10 +43,10 @@
 **实际上，对于每个单词而言，只是不停地复制更多如上相同的单元进行编码。通过每个单词的单元化处理，Transformer可以同时编码计算，并行处理，同时计算每一步而非顺序单独计算。**
 ## 解码器Decoder
 ### 编码器解码器注意力层：解决不漏掉编码器输入句子的重要词句的问题
->*Q:为什么编码器解码器注意力层（交叉注意力层）的K、V输出来源于解码器输出后再次进行Key和Value的计算？
->A:​​Key专注于相似度计算，Value专注于信息传递。Key当决定某个单词应该被翻译为什么时，决定每个输入单词应当使用的百分比（Key的结果经过了Softmax层转化为概率）。Value决定内容（与概率相乘后）。*****这样的交叉注意力层是为了翻译时不要漏掉编码器输入句子的重要词句***![](attachment/1a04ac12c3fb720bf0c9ebf6a7b0c10b.png)
+>Q:为什么编码器解码器注意力层（交叉注意力层）的K、V输出来源于解码器输出后再次进行Key和Value的计算？
+>A:​​Key专注于相似度计算，Value专注于信息传递。Key当决定某个单词应该被翻译为什么时，决定每个输入单词应当使用的百分比（Key的结果经过了Softmax层转化为概率）。Value决定内容（与概率相乘后）。***这样的交叉注意力层是为了翻译时不要漏掉编码器输入句子的重要词句***![](attachment/1a04ac12c3fb720bf0c9ebf6a7b0c10b.png)
 
->**Q:交叉注意力层中Query的来源？
+>***Q:交叉注意力层中Query的来源？
 >A:交叉注意力层的Query直接继承自解码器前一层的输出向量，经过一个可学习的Wq矩阵得到。***
 
 >**Q:交叉注意力层后还存在一个Linear层和Softmax层的意义？
@@ -58,7 +58,7 @@
 ![](attachment/65df98cd3741867b6a124a71a80f4ced.png)
 ## 主要改变Embedding层：图像转化为Token序列
 - 将图像转化为词句，把patch作为一个语义单元，**对应文本里的一个Token。因为一个像素点只存在RGB三个信息，用高维向量来刻画太浪费了。**
->**Q:一个图像如何转化成一个embedding向量呢？
+>**Q:一个图像如何转化成一个embedding向量呢？**
 >A:***①patch embedding：将原始图像划分为多个同维patch，每个相当于句子中的一个单词
 >   ②经过一个全连接层，将patch序列压缩成一个向量
 >   ③position embedding：即加入tokens的位置信息为后面self attention做准备
@@ -70,7 +70,7 @@
 - Transformer Encoder与Transformer中的原生编码器极其相似
 # Cross-Attention：交叉注意力
 ***[原论文出处](https://arxiv.org/pdf/2106.05786)***
->在Transformer中，CrossAttention实际上是指编码器和[解码器](https://so.csdn.net/so/search?q=%E8%A7%A3%E7%A0%81%E5%99%A8&spm=1001.2101.3001.7020)之间的交叉注意力层。
+>在Transformer中，CrossAttention实际上是指编码器和解码器之间的交叉注意力层。
 >**Cross-Attention的输入来自于两个不同序列，一个作为查询Query，另一个作为Key和Value。这使得CrossAttention可以处理跨域任务（如多模态结合，跨模态交互）**
 ## Cross-Attention算法
 ![](attachment/06bd20ff64afe7f502d62bdd827816a2.png)
