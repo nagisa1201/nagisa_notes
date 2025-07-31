@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/Deep Learning.md",
+                "file": "deep learning framework/Deep Learning.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,21 +183,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "70d0f05c9faac9e6",
+  "active": "2c8a7c63e079da4b",
   "lastOpenFiles": [
-    "output/Neural Network Basis（基于Transformer的学习）.md",
     "output/Deep Learning.md",
+    "deep learning framework/Pasted image 20250731220229.png",
+    "deep learning framework/Pasted image 20250731220039.png",
+    "deep learning framework/Pasted image 20250731215837.png",
+    "deep learning framework/Pasted image 20250731214213.png",
+    "deep learning framework/Pasted image 20250731213127.png",
+    "deep learning framework/Pasted image 20250731212954.png",
+    "deep learning framework/Pasted image 20250731212943.png",
+    "output/Neural Network Basis（基于Transformer的学习）.md",
     "deep learning framework/Deep Learning.md",
     "output/attachment/c5e48e4c8588ca60a855657ab2f920dd.png",
     "output/attachment/89495f4ecbfac772193b7f03c69cf418.png",
     "output/attachment/9bd79fb2979a868242f15cd24db089d2.png",
-    "output/attachment/ed570cca8bbae1f727e37f988675d47a.png",
-    "output/attachment/d8e1b70edc2525950bd63d88ea35e33f.png",
-    "deep learning framework/Pasted image 20250731172931.png",
-    "deep learning framework/Pasted image 20250731172843.png",
-    "deep learning framework/Pasted image 20250731172255.png",
-    "deep learning framework/Pasted image 20250731172244.png",
-    "deep learning framework/Pasted image 20250731172225.png",
     "deep learning framework",
     "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
     "output/attachment",
