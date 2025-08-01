@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "deep learning framework/Deep Learning.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -183,8 +183,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2c8a7c63e079da4b",
+  "active": "70d0f05c9faac9e6",
   "lastOpenFiles": [
+    "deep learning framework/Pasted image 20250801213049.png",
+    "deep learning framework/Pasted image 20250801212419.png",
+    "deep learning framework/Pasted image 20250801212127.png",
+    "deep learning framework/Pasted image 20250801212108.png",
     "deep learning framework/Pasted image 20250801192455.png",
     "deep learning framework/Pasted image 20250801192006.png",
     "deep learning framework/Pasted image 20250801174522.png",
@@ -192,10 +196,6 @@
     "deep learning framework/Pasted image 20250801112024.png",
     "deep learning framework/Pasted image 20250801104638.png",
     "deep learning framework/Pasted image 20250801104552.png",
-    "deep learning framework/Pasted image 20250801104230.png",
-    "deep learning framework/Pasted image 20250801104212.png",
-    "deep learning framework/Pasted image 20250801102701.png",
-    "deep learning framework/Pasted image 20250801102639.png",
     "output/Deep Learning.md",
     "deep learning framework/Deep Learning.md",
     "output/Neural Network Basis（基于Transformer的学习）.md",
