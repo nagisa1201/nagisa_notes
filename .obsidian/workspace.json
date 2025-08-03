@@ -1,33 +1,19 @@
 {
   "main": {
-    "id": "665021ab722a5367",
+    "id": "394ed9012537c0bb",
     "type": "split",
     "children": [
       {
-        "id": "d91bfa83c51c1fc1",
+        "id": "a3976d88dc51cf39",
         "type": "tabs",
         "children": [
           {
-            "id": "8a9c63236d0cb91f",
+            "id": "39d87170cc9096b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output/Neural Network Basis（基于Transformer的学习）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Neural Network Basis（基于Transformer的学习）"
-            }
-          },
-          {
-            "id": "2c8a7c63e079da4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "deep learning framework/Deep Learning.md",
+                "file": "notes_repos/deep learning framework/Deep Learning.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,22 +21,21 @@
               "title": "Deep Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fc2bbc1dba83e500",
+    "id": "f13101fcd8fa7c5c",
     "type": "split",
     "children": [
       {
-        "id": "1e16ddd61d56fe54",
+        "id": "19d30b835e061b44",
         "type": "tabs",
         "children": [
           {
-            "id": "70d0f05c9faac9e6",
+            "id": "0531c4f41de8a8a1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,12 +48,12 @@
             }
           },
           {
-            "id": "4d9dc12df4267eed",
+            "id": "04473909c36d18ff",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#词嵌",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "427b711fe4b4fa19",
+            "id": "e4903fdec990860d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "9d45d23aa4dcd836",
+    "id": "2c58f118d21c8dfb",
     "type": "split",
     "children": [
       {
-        "id": "229bbc658f68f8fa",
+        "id": "46dbe2b57d6e92cc",
         "type": "tabs",
         "children": [
           {
-            "id": "aeee3fa59c92f952",
+            "id": "c31d01bfa4fb608d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "deep learning framework/Deep Learning.md",
+                "file": "notes_repos/deep learning framework/Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,21 +108,21 @@
             }
           },
           {
-            "id": "e715de6fd26a0d99",
+            "id": "51ab2f1b5df5b5db",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neural network basis/Pasted image 20250725153720.png",
+                "file": "notes_repos/deep learning framework/Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Pasted image 20250725153720 的出链列表"
+              "title": "Deep Learning 的出链列表"
             }
           },
           {
-            "id": "bd5bb04bafefc3cc",
+            "id": "c22f100da4c7fe1e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +137,18 @@
             }
           },
           {
-            "id": "4320aaaa46bbc753",
+            "id": "2069dffba443b1fc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neural network basis/Pasted image 20250725153720.png",
+                "file": "notes_repos/deep learning framework/Deep Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20250725153720 的大纲"
+              "title": "Deep Learning 的大纲"
             }
           }
         ]
@@ -180,36 +165,9 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "70d0f05c9faac9e6",
-  "lastOpenFiles": [
-    "deep learning framework/Pasted image 20250803135827.png",
-    "deep learning framework/Pasted image 20250803135458.png",
-    "deep learning framework/Pasted image 20250803134852.png",
-    "deep learning framework/Pasted image 20250803134829.png",
-    "deep learning framework/Pasted image 20250803134803.png",
-    "deep learning framework/Pasted image 20250803134749.png",
-    "deep learning framework/Pasted image 20250803134011.png",
-    "deep learning framework/Pasted image 20250803133930.png",
-    "deep learning framework/Pasted image 20250803133921.png",
-    "deep learning framework/Pasted image 20250803133202.png",
-    "deep learning framework/Pasted image 20250803133159.png",
-    "output/Deep Learning.md",
-    "deep learning framework/Deep Learning.md",
-    "output/Neural Network Basis（基于Transformer的学习）.md",
-    "deep learning framework",
-    "Neural network basis/Neural Network Basis（基于Transformer的学习）.md",
-    "output/attachment",
-    "output",
-    "output/Neural Network Basis（基于Transformer的学习）.html",
-    "transformer/Transformer.md",
-    "output/Transformer.md",
-    "transformer",
-    "欢迎.md",
-    "Neural network basis/未命名",
-    "Neural network basis"
-  ]
+  "active": "39d87170cc9096b4",
+  "lastOpenFiles": []
 }
